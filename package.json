@@ -1,0 +1,1 @@
+{"description":"Node wrapper for xray VLESS+WS, for Pxxl Free (GitHub-only, Node detected). Edge terminates TLS, container serves plain WS.","engines":{"node":">=18"},"main":"server.js","name":"xray-pxxl-node","private":true,"scripts":{"setup":"node setup.js","start":"node server.js"},"version":"1.0.0"}

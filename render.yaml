@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: xray-node
+    env: docker
+    plan: free
+    region: oregon
+    healthCheckPath: /
+    envVars:
+      - key: UUID
+        sync: false
+      - key: WSPATH
+        sync: false
